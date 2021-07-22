@@ -1,0 +1,57 @@
+{
+    "salesOrder": {
+        "comment": "Make sure to call 555-555-1234 when you arrive. The front door is broken."
+    },
+    "company": {
+        "name":"Home Services Co.",
+        "address": {
+            "@type": "PostalAddress",
+            "city": "Homestead",
+            "state": "NY",
+            "zip": "14623",
+            "streetAddress": "123 Demohome Street"
+        }
+    },
+    "customer": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "address": {
+            "@type": "PostalAddress",
+            "city": "Seattle",
+            "state": "WA",
+            "zip": "98052",
+            "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
+        },
+        "email": "mailto:jane-doe@xyz.edu",
+        "jobTitle": "Professor",
+        "name": "Jane Doe",
+        "telephone": "(425) 123-4567",
+        "url": "http://www.janedoe.com"
+    },
+    "tax": {
+        "state":"WA",
+        "rate": 0.08
+    },
+    "referencesOrder": [
+        {
+            "description": "Carpet Cleaning Service - 3BR 2BA",
+            "totalPaymentDue": {
+                "price": 359.54
+            },
+            "orderedItem": {
+                "@type": "Service",
+                "description": "Carpet Cleaning Service"
+            }
+        },
+        {
+            "description": "Home Cleaning Service - 3BR 2BA",
+            "totalPaymentDue": {
+                "price": 299.99
+            },
+            "orderedItem": {
+                "@type": "Service",
+                "description": "House Cleaning Service"
+            }
+        }
+    ]
+}
