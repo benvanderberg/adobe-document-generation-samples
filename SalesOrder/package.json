@@ -1,0 +1,14 @@
+{
+  "name": "salesorder",
+  "version": "1.0.0",
+  "description": "This script provides a sample of how Adobe Document Generation API can be used to generate a Sales Order.",
+  "main": "generate-document.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Vanderberg",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/pdfservices-node-sdk": "^2.2.1"
+  }
+}
