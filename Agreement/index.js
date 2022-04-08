@@ -2,7 +2,7 @@ const PDFServicesSdk = require('@adobe/pdfservices-node-sdk');
 const fs = require('fs');
 const path = require('path');
 
-let templateName = "SalesOrder";
+let templateName = "Agreement";
 var dataFileName = path.join(templateName,'data','data.json');
 var inputFileName = path.join(templateName,'input', 'TermsAndConditions_FINAL.docx');
 var outputFileName = path.join(templateName,'output', templateName+'_'+Date.now()+".pdf");

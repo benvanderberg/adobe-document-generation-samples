@@ -1,0 +1,27 @@
+{
+    "customer": {
+        "name": "Home Services Company",
+        "street": "123 Any Street",
+        "city": "Anywhere",
+        "state": "CA",
+        "zip": "12345",
+        "country":"USA",
+        "signer": {
+            "email": "johnnyechostone@gmail.com",
+            "firstName": "John",
+            "lastName": "Echostone"
+        }
+    },
+    "company": {
+        "name": "Projected Consultants",
+        "signer": {
+            "email": "maryburostone@gmail.com",
+            "firstName": "Mary",
+            "lastName": "Burostone"
+        }
+    },
+    "conditions": {
+        "includeGeneralTerms": true,
+        "includeConsumerDiscloure": true
+    }
+}
