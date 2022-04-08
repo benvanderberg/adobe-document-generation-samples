@@ -1,0 +1,22 @@
+{
+  "name": "adobe-document-generation-samples",
+  "version": "1.0.0",
+  "description": "These are sample documents to use with Adobe Document Generation API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benvanderberg/adobe-document-generation-samples.git"
+  },
+  "author": "Ben Vanderberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benvanderberg/adobe-document-generation-samples/issues"
+  },
+  "homepage": "https://github.com/benvanderberg/adobe-document-generation-samples#readme",
+  "dependencies": {
+    "@adobe/pdfservices-node-sdk": "^2.2.1"
+  }
+}

@@ -1,5 +1,5 @@
 {
-    "logo": "https://raw.githubusercontent.com/benvanderberg/adobe-document-generation-samples/main/SalesOrder/Final/logo1.jpg",
+    "logo": "https://raw.githubusercontent.com/benvanderberg/adobe-document-generation-samples/main/SalesOrder/images/logo1.jpg",
     "salesOrder": {
         "comment": "Make sure to call 555-555-1234 when you arrive. The front door is broken."
     },
